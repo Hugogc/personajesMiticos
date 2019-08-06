@@ -1,0 +1,7 @@
+{
+  "name": "personajesMiticos",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

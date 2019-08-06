@@ -1,0 +1,133 @@
+<ion-header>
+    <ion-toolbar color="personalizado">
+            <ion-avatar slot="end">
+                    <img src="assets/imagenes/chukizieza.jpg">
+            </ion-avatar>
+
+        <ion-title>El Chuki de Zieza</ion-title>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="home"></ion-back-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+
+        <ion-card *ngFor="let sonido of chukizieza">
+                <ion-button fill="clear" expand="full" (click)="reproducirAudio(sonido)">
+                <ion-icon color="dark" padding name="musical-notes"></ion-icon>
+                <ion-label color="dark">{{sonido.nombre}}</ion-label>
+                </ion-button> 
+         </ion-card>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <ion-grid>
+        <ion-row>
+            <ion-col size="12">
+
+
+                <ion-chip (click)="reproducirAudio('assets/audios/chukizieza/christian.mp3')">
+                    <ion-icon name="musical-note"></ion-icon>
+                    <ion-label>Christian</ion-label>
+                </ion-chip>
+
+                <ion-chip (click)="reproducirAudio('assets/audios/chukizieza/cuandoloenganche.mp3')">
+                    <ion-icon name="musical-note"></ion-icon>
+                    <ion-label>Cuando lo enganche</ion-label>
+                </ion-chip>
+
+                <ion-chip (click)="reproducirAudio('assets/audios/chukizieza/diselobienclaro.mp3')">
+                    <ion-icon name="musical-note"></ion-icon>
+                    <ion-label>Diselo bien claro</ion-label>
+                </ion-chip>
+
+                <ion-chip (click)="reproducirAudio('assets/audios/chukizieza/drogadicto.mp3')">
+                    <ion-icon name="musical-note"></ion-icon>
+                    <ion-label>Drogadicto</ion-label>
+                </ion-chip>
+
+                <ion-chip (click)="reproducirAudio('assets/audios/chukizieza/elchukidezieza.mp3')">
+                    <ion-icon name="musical-note"></ion-icon>
+                    <ion-label>El chuki de Zieza</ion-label>
+                </ion-chip>
+
+                <ion-chip (click)="reproducirAudio('assets/audios/chukizieza/hijoputa.mp3')">
+                    <ion-icon name="musical-note"></ion-icon>
+                    <ion-label>Hijoputa</ion-label>
+                </ion-chip>
+
+                <ion-chip (click)="reproducirAudio('assets/audios/chukizieza/nomedistenimedia.mp3')">
+                    <ion-icon name="musical-note"></ion-icon>
+                    <ion-label>No me diste ni media</ion-label>
+                </ion-chip>
+
+                <ion-chip (click)="reproducirAudio('assets/audios/chukizieza/quieressentirlaenelpecho.mp3')">
+                    <ion-icon name="musical-note"></ion-icon>
+                    <ion-label>Quieres sentirla en el pecho</ion-label>
+                </ion-chip>
+
+                <ion-chip (click)="reproducirAudio('assets/audios/chukizieza/techivaste.mp3')">
+                    <ion-icon name="musical-note"></ion-icon>
+                    <ion-label>Te chivaste</ion-label>
+                </ion-chip>
+
+                <ion-chip (click)="reproducirAudio('assets/audios/chukizieza/techivastedemicara.mp3')">
+                    <ion-icon name="musical-note"></ion-icon>
+                    <ion-label>Te chivaste de mi cara</ion-label>
+                </ion-chip>
+
+
+
+
+
+
+
+
+            </ion-col>
+
+
+
+
+
+        </ion-row>
+
+    </ion-grid> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ion-content>

@@ -1,0 +1,118 @@
+
+
+#textoHeader{
+    font-size: 120%;
+    
+    
+}
+
+
+ion-content{
+  --background: url('/assets/imagenes/background-723052_1920.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+#personaje{
+   // width: 50%;
+   // height: 20%;
+   // background-color: blue;
+    margin-left: 8%;
+    border-radius: 20px;
+    
+
+
+}
+
+
+#toca{
+    
+    text-align: center;
+    color: rgb(0, 47, 255);
+    
+
+
+
+} 
+
+
+
+
+
+
+#tarjeta{
+    position: relative;
+    top: 0%;
+    width: 382px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.123);
+    border: 1px;
+    border-radius: 15px;
+    
+    
+
+
+
+
+}
+img{position: relative;
+    left: 10%;
+    border-radius: 10px;
+    -webkit-box-shadow: -10px -6px 9px 0px rgba(0,0,0,0.52);
+    -moz-box-shadow: -10px -6px 9px 0px rgba(0,0,0,0.52);
+    box-shadow: -10px -6px 9px 0px rgba(0,0,0,0.52);
+    
+
+
+
+}
+
+
+
+
+
+
+#enlace{
+    //color: red;
+    position: absolute;
+    top: 65%;
+    left: 62%;
+    margin-right: 10px;
+
+    //text-align: center;
+    //text-decoration: underline;
+
+
+
+
+
+
+}
+#titulo{
+    text-align: center;
+
+
+}
+#frases{
+ position: absolute;
+ top: 25%;
+ right: 0%;
+ background-color: rgba(255, 255, 255, 0.315);
+ border-radius: 10px;
+ color: rgb(255, 0, 0);
+ width: 30%;
+ height: 20%;
+ margin-right: 4%;
+ font-size: 1.2em;
+
+
+ 
+ 
+
+
+
+}

@@ -1,0 +1,44 @@
+<ion-header>
+    <ion-toolbar color="personalizado">
+            <ion-avatar slot="end">
+                    <img src="assets/imagenes/borrachoarbolada.jpg">
+            </ion-avatar>
+
+        <ion-title>El borracho de la arbolada</ion-title>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="home"></ion-back-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                 <ion-card *ngFor="let sonido of borrachoarbolada">
+                    <ion-button fill="clear" expand="full" (click)="reproducirAudio(sonido)">
+                    <ion-icon padding color="dark" name="musical-notes"></ion-icon>
+                    <ion-label color="dark">{{sonido.nombre}}</ion-label>
+                    </ion-button> 
+                 </ion-card>  
+
+
+
+            
+            </ion-col> 
+
+
+
+
+        </ion-row>
+
+    </ion-grid>
+
+
+
+
+</ion-content>

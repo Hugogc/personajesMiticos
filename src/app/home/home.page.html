@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-toolbar color="header">
+                 
+            <ion-icon padding 
+                      slot="end" 
+                      name="logo-youtube"></ion-icon>
+                      
+        <ion-title id="textoHeader">Personajes Míticos de Youtube</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+
+       
+    <h2 id="toca">Toca sobre el personaje</h2>   
+    <hr>
+
+    
+<div id="tarjeta" *ngFor="let personaje of personajes">
+    <h3 id="titulo">{{personaje.nombre}}</h3>
+    <img src="{{personaje.imagen}}" width=50% height=80%
+         [routerLink]="personaje.redirectTo">
+    <hr>
+    
+    <h2 id="enlace" (click)="abrirurl(personaje.url, '_self')">
+        <ion-img src="assets/imagenes/youtube.png"></ion-img>
+    </h2>
+    <ion-button img src="assets/imagenes/indice.png" fill="clear" id="frases">Frases</ion-button>
+    
+
+ 
+</div>   
+
+
+</ion-content>
