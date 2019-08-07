@@ -14,8 +14,6 @@ const routes: Routes = [
   { path: 'miguelelmaquina', loadChildren: './pages/miguelelmaquina/miguelelmaquina.module#MiguelelmaquinaPageModule' },
   { path: 'ogrodrogas', loadChildren: './pages/ogrodrogas/ogrodrogas.module#OgrodrogasPageModule' },
   { path: 'tomalacasitos', loadChildren: './pages/tomalacasitos/tomalacasitos.module#TomalacasitosPageModule' },
-  { path: 'vistima', loadChildren: './pages/vistima/vistima.module#VistimaPageModule' },
-  { path: 'sisabencomomepongo', loadChildren: './pages/sisabencomomepongo/sisabencomomepongo.module#SisabencomomepongoPageModule' },
   { path: 'liadoparda', loadChildren: './pages/liadoparda/liadoparda.module#LiadopardaPageModule' },
   { path: 'matiaselhumilde', loadChildren: './pages/matiaselhumilde/matiaselhumilde.module#MatiaselhumildePageModule' },
 ];

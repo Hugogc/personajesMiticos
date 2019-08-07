@@ -3,14 +3,11 @@
 #textoHeader{
     font-size: 120%;
     
-    
 }
 
 
 ion-content{
-  --background: url('/assets/imagenes/background-723052_1920.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
+  --background: url('/assets/imagenes/fondo.jpg');
     
 
 }
@@ -18,14 +15,9 @@ ion-content{
 
 
 #personaje{
-   // width: 50%;
-   // height: 20%;
-   // background-color: blue;
     margin-left: 8%;
     border-radius: 20px;
     
-
-
 }
 
 
@@ -33,14 +25,8 @@ ion-content{
     
     text-align: center;
     color: rgb(0, 47, 255);
-    
-
-
 
 } 
-
-
-
 
 
 
@@ -53,9 +39,6 @@ ion-content{
     border: 1px;
     border-radius: 15px;
     
-    
-
-
 
 
 }
@@ -65,54 +48,49 @@ img{position: relative;
     -webkit-box-shadow: -10px -6px 9px 0px rgba(0,0,0,0.52);
     -moz-box-shadow: -10px -6px 9px 0px rgba(0,0,0,0.52);
     box-shadow: -10px -6px 9px 0px rgba(0,0,0,0.52);
-    
-
-
-
 }
-
-
 
 
 
 
 #enlace{
-    //color: red;
     position: absolute;
     top: 65%;
     left: 62%;
     margin-right: 10px;
 
-    //text-align: center;
-    //text-decoration: underline;
-
-
-
-
-
 
 }
+
+
 #titulo{
     text-align: center;
 
 
 }
-#frases{
- position: absolute;
- top: 25%;
- right: 0%;
- background-color: rgba(255, 255, 255, 0.315);
- border-radius: 10px;
- color: rgb(255, 0, 0);
- width: 30%;
- height: 20%;
- margin-right: 4%;
- font-size: 1.2em;
 
 
- 
- 
+.button {
 
+    position: absolute;
+    top: 25%;
+    right: 0%;
+    width: 30%;
+    height: 20%;
+    font-size: 1.5em;
+    margin-right: 4%;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(110, 194, 113);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
 
-
-}
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
