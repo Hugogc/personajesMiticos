@@ -5,28 +5,17 @@
     
 }
 
+@media only screen and ( max-width: 320px ){
+    #textoHeader{
+        font-size: 15px;
+    }
+}
 
 ion-content{
   --background: url('/assets/imagenes/fondo.jpg');
     
 
 }
-
-
-
-#personaje{
-    margin-left: 8%;
-    border-radius: 20px;
-    
-}
-
-
-#toca{
-    
-    text-align: center;
-    color: rgb(0, 47, 255);
-
-} 
 
 
 
@@ -39,9 +28,42 @@ ion-content{
     border: 1px;
     border-radius: 15px;
     
-
-
 }
+
+@media only screen and ( max-width: 320px ){
+    #tarjeta{
+        width: 290px;
+        height: 150px;
+    }
+}
+
+@media only screen and ( max-width: 360px ){
+    #tarjeta{
+        width: 330px;
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and ( max-width: 320px ){
+
+    img{
+        width: 40%;
+        height: 70%;
+    }
+}
+
+@media only screen and ( max-width: 360px ){
+
+    img{
+        width: 43%;
+        height: 65%;
+    }
+}
+
+
+
 img{position: relative;
     left: 10%;
     border-radius: 10px;
