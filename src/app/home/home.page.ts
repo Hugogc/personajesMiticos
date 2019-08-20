@@ -4,6 +4,7 @@ import { browser } from 'protractor';
 
 
 
+
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -12,7 +13,7 @@ import { browser } from 'protractor';
 export class HomePage {
 
   
-
+ 
   personajes: any = [
     {
       imagen:'assets/imagenes/borrachoarbolada.jpg',
@@ -90,9 +91,11 @@ export class HomePage {
 
   ];
 
-  
 
-  constructor(private browser: InAppBrowser) {}
+
+
+  
+  constructor(private browser: InAppBrowser){}
                  
 
 abrirurl(url: string, target:string){

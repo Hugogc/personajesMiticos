@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { BorrachoarboladaPageModule } from './borrachoarbolada.module';
 
+
+
 @Component({
   selector: 'app-borrachoarbolada',
   templateUrl: './borrachoarbolada.page.html',
@@ -8,10 +10,13 @@ import { BorrachoarboladaPageModule } from './borrachoarbolada.module';
 })
 export class BorrachoarboladaPage {
 
+
+
+
+
   
+  constructor(){}
 
-
-  constructor() { }
 
 
  borrachoarbolada = [
