@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 import { browser } from 'protractor';
+import { AdMobFree, AdMobFreeBannerConfig } from '@ionic-native/admob-free/ngx';
+import { Platform } from '@ionic/angular';
+
 
 
 
@@ -12,7 +15,8 @@ import { browser } from 'protractor';
 })
 export class HomePage {
 
-  
+  bannerConfig:AdMobFreeBannerConfig;
+
  
   personajes: any = [
     {
@@ -95,8 +99,35 @@ export class HomePage {
 
 
   
-  constructor(private browser: InAppBrowser){}
-                 
+  constructor(private browser: InAppBrowser, public admobfree: AdMobFree, public platform: Platform){
+    
+
+    
+    const bannerConfig: AdMobFreeBannerConfig = {
+      id: 'ca-app-pub-9757691776622668/6568493805',
+      isTesting: true,
+      autoShow: true,
+      bannerAtTop: false,
+      overlap: true,
+
+      
+
+     }
+     this.platform.ready().then(()=>{
+
+      this.admobfree.banner.config(this.bannerConfig);
+      this.admobfree.banner.prepare()
+      .then(() => {
+        this.admobfree.banner.show();
+      })
+      .catch(e => console.log(e));
+
+     })
+     
+
+
+    }
+
 
 abrirurl(url: string, target:string){
   const link = url

@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AdMobFree, AdMobFreeBannerConfig } from '@ionic-native/admob-free/ngx';
 
 
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html'
@@ -15,7 +16,8 @@ export class AppComponent {
     private platform: Platform,
     private splashScreen: SplashScreen,
     private statusBar: StatusBar,
-    private admobFree: AdMobFree,
+    private admodfree: AdMobFree,
+    
     
   )
 
@@ -26,20 +28,7 @@ export class AppComponent {
 
    {
 
-    const bannerConfig: AdMobFreeBannerConfig = {
-      id: 'ca-app-pub-9757691776622668~2727088191',
-
-      isTesting: true,
-      autoShow: true
-     };
-
-     this.admobFree.banner.config(bannerConfig);
-     this.admobFree.banner.prepare()
-     .then(() => {
-      
-    })
-    .catch(e => console.log(e));
-
+    
 
 
 

@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "47818220595",
+    "firebase_url": "https://personajes-miticos.firebaseio.com",
+    "project_id": "personajes-miticos",
+    "storage_bucket": "personajes-miticos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47818220595:android:5a32375f3dcd56d8",
+        "android_client_info": {
+          "package_name": "com.hugogalan.personajesmiticos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47818220595-mfmg320prg0qo646jtmvrf2evea41aqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOvhIXdaZmWGPnoTzuN7ui4konOufAmmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47818220595-mfmg320prg0qo646jtmvrf2evea41aqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-9757691776622668~2727088191"
+    }
+  ],
+  "configuration_version": "1"
+}
