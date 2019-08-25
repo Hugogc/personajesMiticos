@@ -105,7 +105,7 @@ export class HomePage {
     
     const bannerConfig: AdMobFreeBannerConfig = {
       id: 'ca-app-pub-9757691776622668/6568493805',
-      isTesting: true,
+      isTesting: false,
       autoShow: true,
       bannerAtTop: false,
       overlap: true,
