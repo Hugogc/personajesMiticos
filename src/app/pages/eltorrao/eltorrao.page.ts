@@ -64,36 +64,7 @@ export class EltorraoPage implements OnInit {
       nombre: 'Ya mismo',
       audio: 'assets/audios/eltorrao/yamismo.mp3',
     },
-  
-     
-
-
-
-
-
-  
-
-
   ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

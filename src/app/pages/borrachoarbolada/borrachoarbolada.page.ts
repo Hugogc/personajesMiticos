@@ -3,6 +3,7 @@ import { BorrachoarboladaPageModule } from './borrachoarbolada.module';
 
 
 
+
 @Component({
   selector: 'app-borrachoarbolada',
   templateUrl: './borrachoarbolada.page.html',
@@ -10,19 +11,17 @@ import { BorrachoarboladaPageModule } from './borrachoarbolada.module';
 })
 export class BorrachoarboladaPage {
 
-
-
-
+  
+  constructor( ){}
 
   
-  constructor(){}
 
 
 
  borrachoarbolada = [
 
       { 
-        nombre: 'Se fué a la puta',
+        nombre: ' Y su moto se fué a la p***',
         audio: 'assets/audios/borrachoarbolada/sefuealaputa.mp3',
       },
       { 
@@ -79,6 +78,8 @@ export class BorrachoarboladaPage {
   
 
     ]
+
+    
 
    reproducirAudio(sonido){
 

@@ -16,6 +16,9 @@ const routes: Routes = [
   { path: 'tomalacasitos', loadChildren: './pages/tomalacasitos/tomalacasitos.module#TomalacasitosPageModule' },
   { path: 'liadoparda', loadChildren: './pages/liadoparda/liadoparda.module#LiadopardaPageModule' },
   { path: 'matiaselhumilde', loadChildren: './pages/matiaselhumilde/matiaselhumilde.module#MatiaselhumildePageModule' },
+  { path: 'elfua', loadChildren: './pages/elfua/elfua.module#ElfuaPageModule' },
+  { path: 'baptisterio', loadChildren: './pages/baptisterio/baptisterio.module#BaptisterioPageModule' },
+  
 ];
 
 @NgModule({

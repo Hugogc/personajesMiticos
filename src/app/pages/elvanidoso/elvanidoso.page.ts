@@ -41,7 +41,7 @@ export class ElvanidosoPage implements OnInit {
       audio: 'assets/audios/elvanidoso/forzar.mp3',
     },
     {
-      nombre: 'La droga',
+      nombre: 'La dr**a',
       audio: 'assets/audios/elvanidoso/ladroga.mp3',
     },
     {
@@ -49,7 +49,7 @@ export class ElvanidosoPage implements OnInit {
       audio: 'assets/audios/elvanidoso/lafelicidad.mp3',
     },
     {
-      nombre: 'Eres un maricón',
+      nombre: 'Eres un mar****',
       audio: 'assets/audios/elvanidoso/maricon.mp3',
     },
     {
@@ -76,21 +76,7 @@ export class ElvanidosoPage implements OnInit {
       nombre: 'Yo soy un vanidoso',
       audio: 'assets/audios/elvanidoso/vanidoso.mp3',
     },
-
-
-
   ];
-
-
-
-
-
-
-
-
-
-
-
 
 
   reproducirAudio(sonido){

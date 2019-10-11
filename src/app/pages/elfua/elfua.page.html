@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar color="personalizado">
+          <ion-avatar slot="end">
+                  <img src="assets/imagenes/elfua.jpg">
+          </ion-avatar>
+
+      <ion-title>El fuaaa</ion-title>
+      <ion-buttons slot="start">
+          <ion-back-button defaultHref="home"></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card *ngFor="let sonido of elfua">
+    <ion-button fill="clear" expand="full" (click)="reproducirAudio(sonido)">
+    <ion-icon color="dark" padding name="musical-notes"></ion-icon>
+    <ion-label color="dark">{{sonido.nombre}}</ion-label>
+    </ion-button> 
+</ion-card>  
+
+
+
+
+</ion-content>
+ 

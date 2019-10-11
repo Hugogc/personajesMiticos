@@ -32,15 +32,7 @@ export class MatiaselhumildePage implements OnInit {
       nombre: 'Tengo el viper',
       audio: 'assets/audios/matiaselhumilde/viper.mp3',
     },
-
-
-
-  ];  
-
-
-
-
-
+  ];
 
 
   reproducirAudio(sonido){

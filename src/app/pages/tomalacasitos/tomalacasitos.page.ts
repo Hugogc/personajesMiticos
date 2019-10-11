@@ -60,17 +60,7 @@ export class TomalacasitosPage implements OnInit {
       nombre: 'Viva la Guardia Civil',
       audio: 'assets/audios/tomalacasitos/vivaguardia.mp3',
     },
-    
-
-
-
   ];
-
-
-
-
-
-
 
 
   reproducirAudio(sonido){

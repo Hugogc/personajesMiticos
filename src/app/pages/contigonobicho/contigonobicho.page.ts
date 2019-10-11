@@ -73,7 +73,7 @@ export class ContigonobichoPage implements OnInit {
       audio: 'assets/audios/contigonobicho/guapo.mp3',
     },
     {
-      nombre: 'Hija de puta',
+      nombre: 'Hija de p***',
       audio: 'assets/audios/contigonobicho/hijadeputa.mp3',
     },
     {
@@ -88,44 +88,7 @@ export class ContigonobichoPage implements OnInit {
       nombre: 'Apartarme con un palo',
       audio: 'assets/audios/contigonobicho/unpalo.mp3',
     },
-
-
-
-
-
-
-  
-
-
   ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   reproducirAudio(sonido){
@@ -134,7 +97,6 @@ export class ContigonobichoPage implements OnInit {
     audio.src = sonido.audio;
     audio.load();
     audio.play();
-
 
 }
 

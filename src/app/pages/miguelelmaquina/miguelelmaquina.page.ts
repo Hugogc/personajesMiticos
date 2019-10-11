@@ -43,15 +43,7 @@ export class MiguelelmaquinaPage implements OnInit {
       nombre: 'Tututa',
       audio: 'assets/audios/miguelelmaquina/tututa.mp3',
     },
-    
-    
-
-
   ];
-
-
-
-
 
   reproducirAudio(sonido){
 

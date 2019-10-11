@@ -59,14 +59,7 @@ export class OgrodrogasPage implements OnInit {
       nombre: 'Yo no consumo nada',
       audio: 'assets/audios/ogrodrogas/yonoconsumonada2.mp3',
     },
-
-
-
-
-
   ];
-
-
 
 
   reproducirAudio(sonido){

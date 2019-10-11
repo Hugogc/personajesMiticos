@@ -24,7 +24,7 @@ export class GuardiandelasestrellasPage implements OnInit {
       audio: 'assets/audios/elguardiandelasestrellas/estirpe.mp3',
     },
     {
-      nombre: 'No pienso follar',
+      nombre: 'No pienso f*****',
       audio: 'assets/audios/elguardiandelasestrellas/follar.mp3',
     },
     {
@@ -71,20 +71,7 @@ export class GuardiandelasestrellasPage implements OnInit {
       nombre: 'El Rey es mi padre',
       audio: 'assets/audios/elguardiandelasestrellas/rey.mp3',
     },
-    
-
-
-
-
-
-  
-
-
   ];
-
-
-
-
 
 
   reproducirAudio(sonido){

@@ -92,12 +92,7 @@ export class LosdeleclipsePage implements OnInit {
       nombre: '¿Te ries?',
       audio: 'assets/audios/losdeleclipse/teries.mp3',
     },
-
-
-
   ];
-
-
 
 
   reproducirAudio(sonido){

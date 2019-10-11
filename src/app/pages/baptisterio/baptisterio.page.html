@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="personalizado">
+          <ion-avatar slot="end">
+                  <img src="assets/imagenes/baptisterio.jpg">
+          </ion-avatar>
+
+      <ion-title>Las hermanas del Baptisterio</ion-title>
+      <ion-buttons slot="start">
+          <ion-back-button defaultHref="home"></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+        <ion-col>
+             <ion-card *ngFor="let sonido of baptisterio">
+                <ion-button fill="clear" expand="full" (click)="reproducirAudio(sonido)">
+                <ion-icon padding color="dark" name="musical-notes"></ion-icon>
+                <ion-label color="dark">{{sonido.nombre}}</ion-label>
+                </ion-button> 
+             </ion-card>  
+
+
+
+        
+        </ion-col> 
+
+
+
+
+    </ion-row>
+
+</ion-grid>
+</ion-content>

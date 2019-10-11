@@ -39,9 +39,6 @@ export class LiadopardaPage implements OnInit {
       nombre: 'Ácido clorhídrico',
       audio: 'assets/audios/liadoparda/sulfato.mp3',
     },
-
-
-
   ];
 
 

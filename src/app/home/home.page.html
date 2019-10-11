@@ -12,9 +12,6 @@
 
 <ion-content padding>
 
-       
-   
-
     
 <div id="tarjeta" *ngFor="let personaje of personajes">
      <h3 id="titulo">{{personaje.nombre}}</h3>
@@ -25,8 +22,7 @@
         <ion-img src="assets/imagenes/youtube.png"></ion-img>
      </h2>
     
-       <button class="button"
-               [routerLink]="personaje.redirectTo">Frases</button>
+    <button class="button" [routerLink]="personaje.redirectTo">Frases</button>
     
 
 </div>   

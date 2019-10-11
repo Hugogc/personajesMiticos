@@ -33,7 +33,7 @@ export class ChukiziezaPage implements OnInit {
       audio: 'assets/audios/chukizieza/elchukidezieza.mp3',
     },
     {
-      nombre: 'Hijoputa',
+      nombre: 'Hijop***',
       audio: 'assets/audios/chukizieza/hijoputa.mp3',
     },
     {
@@ -52,12 +52,6 @@ export class ChukiziezaPage implements OnInit {
       nombre: 'Te chivaste de mi cara',
       audio: 'assets/audios/chukizieza/techivastedemicara.mp3',
     },
-    
-
-
-  
-
-
   ];
 
 
