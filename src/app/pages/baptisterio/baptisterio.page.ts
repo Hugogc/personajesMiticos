@@ -112,11 +112,11 @@ export class BaptisterioPage implements OnInit {
       audio: 'assets/audios/baptisterio/risas.mp3',
     }
 
-  ]
+  ];
 
-  reproducirAudio(sonido){
+  reproducirAudio(sonido) {
 
-    let audio = new Audio();
+    const audio = new Audio();
     audio.src = sonido.audio;
     audio.load();
     audio.play();
